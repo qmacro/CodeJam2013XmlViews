@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<core:View
+    controllerName="myfirstapp.MainView"
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core">
+
+    <Page title="Employees">
+        <List items="{/Employees}">
+            <StandardListItem
+                title="{FirstName} {LastName}"
+                description="{Title}"
+                icon="sap-icon://person-placeholder"
+            />
+        </List>
+    </Page>
+
+</core:View>
